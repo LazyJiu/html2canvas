@@ -38,7 +38,7 @@ export class FontMetrics {
         img.style.margin = '0';
         img.style.padding = '0';
         img.style.verticalAlign = 'baseline';
-
+        img.style.display = 'inline-block';
         span.style.fontFamily = fontFamily;
         span.style.fontSize = fontSize;
         span.style.margin = '0';
